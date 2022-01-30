@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+    margin-top: 100px;
+  width: 650px; /* Aqui se mueven lo que es el ancho de la caja*/
+  height: 420px;
+  background: #FFFFFF;
+  color: #000; /* Email en color*/
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 80px 70px;/* abajo, izquierda*/
+}
+
+/* 1200 * 941*/
+.imagen {
+  text-align: right;
+  width: 1450px; /* pegado a la izquierda*/
+  height: 0px;
+  top: -10%;
+  right: 0%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 90px 0px;/* abajo, izquierda*/
+}
+
+
+
+
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: left; /* texto login here centrado*/
+  font-size: 25px;
+}
+
+.login-box label { /* EMAIL Y CONTRASEÑA*/
+  margin: 0;
+  padding-bottom: 13px;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box label2 { /* EMAIL Y CONTRASEÑA*/
+  margin: 0;
+  margin-bottom: 20px;
+  padding-bottom: 13px;
+  font-weight: bold;
+  display: block;
+}
+
+
+
+/* Separacion ente 1 box y otro*/
+.login-box input {
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+/* Esto es de las cajas, editar*/
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-radius: 10px;
+
+  background: #F7F7F7;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+/* ESTO ES DEL BOTON INICIAR SESION*/
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #3BEF97;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.span {
+    right: 50%;
+    color: #3BEF97;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: left;
+        text-align: left;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #BEF3D9;
+  color: #000;
+}
+
+.login-box a { /* HE OLVIDADO LA CONTRASEÑA.*/
+
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 50px;
+  color: #3BEF97;
+  margin-left: 160px; /* Esto es para que esten juntos el recuerdame y el olvido de password*/
+  font-weight: bold;
+}
+
+
+/* margenes de copyright*/
+.login-info-container1 {
+    padding-top: 16rem; /* Margen top de inicio sesion*/
+   margin-bottom: -10px;
+   color: #9C9D9D;
+   font-size: 13px
+}
+
+.login-info-container2 {
+    margin-bottom: -10px;
+    color: #9C9D9D;
+    font-size: 13px
+}
+
+.login-info-container3 {
+    /*padding-top: 0rem; Para el alto*/
+    /* text-decoration: underline; Podia haber puesto esto pero entonces la barra me sale en gris y es negra*/
+    color: #9C9D9D;
+    font-size: 13px
+}
+
+.login-info-container4 {
+    margin-top: -24px;
+    text-decoration: underline;
+        color: #000;
+        font-size: 10px
+}
+
+/* Alumnos*/
+.h1, em{
+    text-transform: capitalize;
+    font-size: 1.75rem; /*fwefwef*/
+    font-weight: 800;
+    letter-spacing: 1px;
+    font: 100% sans-serif;
+    font-size: 1em;
+    color: #3BEF97;
+    font-weight: bold;
+
+}
+
+
+.login-box input[type="checkbox"] { /* HE OLVIDADO LA CONTRASEÑA.*/
+
+  line-height: 50px;
+  height: 12px;
+  color: #3BEF97;
+  margin-left: -250px; /* Esto es para que esten juntos el recuerdame y el olvido de password*/
+  font-weight: bold;
+}
+
+/* RECUERDAME */
+
+.title2, em2{
+    font-weight: bold;
+    margin-left: -240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

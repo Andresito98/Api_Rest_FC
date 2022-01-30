@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <title>Que miras?</title>
+    <link rel="stylesheet" th:href="@{/css/loginMaster.css}"/>
+    <!-- ./css/loginMaster.css -->
+
+  </head>
+  <body>
+  <div th:if="${param.error}"> Error credenciales
+  </div>
+
+    <div class="login-box">
+      <h1 class="title2">OpenBootcamp <em>|Alumnos</em> </h1>
+      <form id="loginform" method="post" th:action="@{/api/auth/login9-post}" role="form"> <!-- Esto modificado, esto es asi /api/auth/login o /api/auth/login-post-->
+        <!-- USERNAME INPUT -->
+        <label for="username">Email</label>
+        <input type="text" name="username" placeholder="Introduce tu correo"> <!-- Esto modificado-->
+        <!-- PASSWORD INPUT -->
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" placeholder="Introduce tu contraseña"> <!-- Esto modificado-->
+
+
+        <input id="remember-me" name="remember-me" type="checkbox" class="title2"><em2>Recuerdame</em2>
+
+        <a href="#">He olvidado la contraseña</a><br>
+
+
+
+        <input type="submit" value="Iniciar Sesión" method="post"th:action="@{/api/auth/login}">
+      </form>
+
+      <div class="login-info-container1">
+        <p><span class="copyright">Copyright &#169 2021 Open Bootcamp SL, imagina Gorup</span></p>
+      </div>
+
+      <div class="login-info-container2">
+        <p><span class="copyright">Todos los derechos reservados</span></p>
+      </div>
+
+      <div class="login-info-container3">
+        <p><span class="copyright">Politica de privacidad</span></p>
+      </div>
+
+      <div class="login-info-container4">
+        <p><span class="copyright">______________________</span></p>
+      </div>
+
+    </div>
+
+
+
+    </div>
+
+    <div class="imagen">
+      <img th:src="@{/img/fondo2.jpg}" class="avatar" alt="Avatar Image">
+      <!-- <img src="img/fondo2.jpg" class="avatar" alt="Avatar Image">
+
+
+    <link rel="stylesheet" th:href="@{/img/fondo.jpeg}"/>
+    <link rel="stylesheet" th:href="@{/img/fondo2.jpg}"/>
+
+       -->
+    </div>
+
+  </body>
+</html>
+
